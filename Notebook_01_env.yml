@@ -1,0 +1,17 @@
+name: Hyperspy_env_clone
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy=1.24
+  - scipy
+  - matplotlib=3.5
+  - pandas=2.2
+  - scikit-learn=1.6
+  - scikit-image=0.19
+  - h5py=3.12
+  - hyperspy=1.7
+  - jupyterlab
+  - ipykernel
+  - plotly
+  - umap-learn
