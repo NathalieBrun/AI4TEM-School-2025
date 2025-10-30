@@ -1,0 +1,12 @@
+name: UMAP_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy=2.2
+  - scipy=1.15
+  - scikit-learn=1.7
+  - hdbscan=0.8.39
+  - umap-learn=0.5.7
+
+      
