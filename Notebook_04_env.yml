@@ -1,0 +1,28 @@
+# ============================================================
+# Conda environment for Notebook_04 (Autoencoder Unmixing)
+# Windows 10 | Python 3.9 | TensorFlow 2.5.0 (pip)
+# ============================================================
+
+name: TensorFlow200_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python & base scientific stack (conda)
+  - python=3.9.4
+  - numpy=1.19.5          
+  - scipy=1.6.2           
+  - h5py=2.10.0           
+  - matplotlib=3.3.4
+  - scikit-image=0.18.1
+  - scikit-learn=0.24.1
+  - jupyter=1.0.0
+  - jupyterlab=3.0.14
+
+  - pip:
+      - tensorflow==2.5.0
+      # optionnal :
+      - keras-tuner==1.0.3
+
+
